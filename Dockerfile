@@ -2,7 +2,7 @@
 # Dockerfile for tesseract
 #
 
-FROM debian:jessie
+FROM debian:stretch
 
 RUN set -xe \
     && apt-get update \
